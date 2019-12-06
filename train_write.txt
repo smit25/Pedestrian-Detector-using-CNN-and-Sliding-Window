@@ -1,0 +1,31 @@
+Batch Size : 64
+
+Torch_Model(
+  (conv1): Conv2d(1, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (conv2): Conv2d(16, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (pool1): MaxPool2d(kernel_size=6, stride=6, padding=0, dilation=1, ceil_mode=False)
+  (dropout1): Dropout(p=0.25, inplace=False)
+  (conv3): Conv2d(32, 64, kernel_size=(5, 9), stride=(1, 1))
+  (pool2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv4): Conv2d(64, 64, kernel_size=(2, 4), stride=(1, 1))
+  (dropout2): Dropout(p=0.5, inplace=False)
+  (conv5): Conv2d(64, 128, kernel_size=(1, 1), stride=(1, 1))
+  (conv6): Conv2d(128, 1, kernel_size=(1, 1), stride=(1, 1))
+)
+
+Optimizer : ADAM
+
+Epochs : 5
+
+
+Epoch 1 Train Loss: 0.5764
+Training Complete.
+Epoch 2 Train Loss: 0.3772
+Training Complete.
+Epoch 3 Train Loss: 0.2715
+Training Complete.
+Epoch 4 Train Loss: 0.2164
+Training Complete.
+Epoch 5 Train Loss: 0.1390
+Training Complete.Training Accuracy: 96.4000
+Testing Accuracy: 95.6667
