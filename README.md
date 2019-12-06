@@ -29,7 +29,7 @@ PIPELINE OR THE FLOW OF THE PROJECT:
 
 ARCHITECTURE OF THE MODEL(summary of the same model using Keras API):
 
-Layer (type)                     Output Shape                   Param # 
+Layer (type)                      Output Shape                   Param # 
 =================================================================
 conv2d_1 (Conv2D)                 (None, 48, 96, 16)             160 
 _________________________________________________________________
@@ -53,6 +53,8 @@ conv2d_6 (Conv2D)                 (None, 1, 1, 1)                129
         
 =================================================================
 Total params: 138,305
+
 Trainable params: 138,305
+
 Non-trainable params: 0
 
