@@ -1,0 +1,14 @@
+""" For Training Data I've used combination of INRIA PEARSON and DAIMLER BENCHMARK Datasets to obtain trainng samples of Pedestrians and Non-Pedestrians"""
+
+""" Test Images for actual detection are taken from Google """
+
+
+
+
+1) PETA Dataset - http://mmlab.ie.cuhk.edu.hk/projects/PETA.html
+
+2) INRIA PEARSON Dataset - http://pascal.inrialpes.fr/data/human/
+
+3) PENN-FUDAN Dataset - https://www.cis.upenn.edu/~jshi/ped_html/
+
+4) DAIMLER BENCHMARK Dataset - http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/Daimler_Mono_Ped__Detection_Be/daimler_mono_ped__detection_be.html
