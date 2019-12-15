@@ -1,5 +1,6 @@
 # Pedestrian-Detector
 LIBRARIES USED:
+
 1)OS
 2)PYTORCH/KERAS
 3)PIL
@@ -9,11 +10,13 @@ LIBRARIES USED:
 7)NUMPY
 
 PURPOSE OF THIS PROJECT:
+
 1) Used by drones for detection of pedestrains
 2) Useful for autopilot in cars
 3) With added features and optimization, it can be used for individual recognition.
 
 PIPELINE:
+
 1)Loading the dataset using os library
 2)Preprocess the image using PIL and/or CV2
 3)convert the image to array using numpy and convert the array to tensor through torchvision
