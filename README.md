@@ -1,5 +1,29 @@
 # Pedestrian-Detector
-PIPELINE OR THE FLOW OF THE PROJECT:
+LIBRARIES USED:
+1)OS
+2)PYTORCH/KERAS
+3)PIL
+4)CV2
+5)MATPLOTLIB
+6)SCIKITLEARN (OPTIONAL)
+7)NUMPY
+
+PURPOSE OF THIS PROJECT:
+1) Used by drones for detection of pedestrains
+2) Useful for autopilot in cars
+3) With added features and optimization, it can be used for individual recognition.
+
+PIPELINE:
+1)Loading the dataset using os library
+2)Preprocess the image using PIL and/or CV2
+3)convert the image to array using numpy and convert the array to tensor through torchvision
+4)train the model built using keras/pytorch
+6)pass the test image thourgh the trained model and generate heatmap using matplotlib
+7)apply threshold on the heatmap and make boxes around the region having potetial pedestrains
+8)group the boxes
+
+
+FLOW OF THE PROJECT:
 
 1) Procure a dataset, either download a public dataset or make a datatset of your own.
    	Make sure the dataset contains images of both Pedestrians and non-Pedestrians for training.
