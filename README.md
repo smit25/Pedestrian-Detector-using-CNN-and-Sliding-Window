@@ -1,18 +1,18 @@
 # Pedestrian-Detector
 LIBRARIES USED:
 
-1)OS
-2)PYTORCH/KERAS
-3)PIL
-4)CV2
-5)MATPLOTLIB
+1)OS.
+2)PYTORCH/KERAS.
+3)PIL...
+4)CV2.
+5)MATPLOTLIB.
 6)SCIKITLEARN (OPTIONAL)
-7)NUMPY
+7)NUMPY.
 
 PURPOSE OF THIS PROJECT:
 
-1) Used by drones for detection of pedestrains
-2) Useful for autopilot in cars
+1) Used by drones for detection of pedestrains.
+2) Useful for autopilot in cars.
 3) With added features and optimization, it can be used for individual recognition.
 
 PIPELINE:
