@@ -2,11 +2,17 @@
 LIBRARIES USED:
 
 1)OS.
+
 2)PYTORCH/KERAS.
-3)PIL...
+
+3)PIL.
+
 4)CV2.
+
 5)MATPLOTLIB.
-6)SCIKITLEARN (OPTIONAL)
+
+6)SCIKITLEARN (OPTIONAL).
+
 7)NUMPY.
 
 PURPOSE OF THIS PROJECT:
@@ -17,13 +23,19 @@ PURPOSE OF THIS PROJECT:
 
 PIPELINE:
 
-1)Loading the dataset using os library
-2)Preprocess the image using PIL and/or CV2
-3)convert the image to array using numpy and convert the array to tensor through torchvision
-4)train the model built using keras/pytorch
-6)pass the test image thourgh the trained model and generate heatmap using matplotlib
-7)apply threshold on the heatmap and make boxes around the region having potetial pedestrains
-8)group the boxes
+1)Loading the dataset using os library.
+
+2)Preprocess the image using PIL and/or CV2.
+
+3)convert the image to array using numpy and convert the array to tensor through torchvision.
+
+4)train the model built using keras/pytorch.
+
+6)pass the test image thourgh the trained model and generate heatmap using matplotlib.
+
+7)apply threshold on the heatmap and make boxes around the region having potetial pedestrains.
+
+8)group the boxes and generate the image.
 
 
 FLOW OF THE PROJECT:
